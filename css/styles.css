@@ -284,9 +284,10 @@ ul {
         grid-template-columns:  1fr;
     }
 
-    .testimonials__card-text {
-        width: 100%;
+    .testimonials__mobile-card-text {
+        width: 300px;
     }
+    
 }
 @media (max-width: 990px) {
 
