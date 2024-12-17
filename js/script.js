@@ -3,7 +3,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const toggleButton = document.querySelector('.navbar__mobile-menu-toggle'); // Adicionado ponto
     const mobileMenu = document.querySelector('.navbar__mobile-menu-items');   // Adicionado ponto
     const icon = document.querySelector('#menu__icon');
-
+    const openVideo = document.querySelector('.preview__video-button');
+    const closeVideo = document.querySelector('.modal__close-button');
+    const modal = document.querySelector('.modal');
 
     toggleButton.addEventListener('click', function () {
 
@@ -22,6 +24,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
       }, 300);
 
+    });
+
+    openVideo.addEventListener('click', function () {
+      modal.classList.add('active');
+      // modal.style.display = 'block';
+    });
+    
+    closeVideo.addEventListener('click', function () {
+      modal.classList.remove('active');
+      // modal.style.display = 'none';
     });
 
     const swiper = new Swiper('.swiper', {
