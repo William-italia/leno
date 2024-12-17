@@ -27,17 +27,32 @@ document.addEventListener('DOMContentLoaded', function () {
 
   });
 
+
+
   openVideo.addEventListener('click', function () {
+
     modal.classList.add('active');
-    // modal.style.display = 'block';
+    videoPlayer.src = 'https://www.youtube.com/embed/MaNDBD2EzJo?si=WtUeAVgzjajXKq3l?enablejsapi=1';
+
+
+    closeVideo.addEventListener('click', function () {
+
+      modal.classList.remove('active');
+      videoPlayer.src = '';
+      
+    });
+    
+    window.addEventListener('click', function (event) {
+      if(event.target == modal) {
+        modal.classList.remove('active');
+        videoPlayer.src = '';
+        }
+    })
   });
   
-  closeVideo.addEventListener('click', function () {
-    modal.classList.remove('active');
-    videoPlayer.src = '';
-    videoPlayer.src = 'https://www.youtube.com/embed/MaNDBD2EzJo?si=WtUeAVgzjajXKq3l?enablejsapi=1';
-    // modal.style.display = 'none';
-  });
+
+
+
 
   const swiper = new Swiper('.swiper', {
       // Optional parameters
