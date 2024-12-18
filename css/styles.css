@@ -628,6 +628,137 @@ ul {
     align-items: center;
   }
 
+     /* details */
+    /* inner-header */
+    
+    .inner-header {
+        background: #16161d url('../img/header-background.jpg') center center/cover no-repeat;
+        padding: 8rem 2rem 6rem;
+    }
+
+    .inner-header__title {
+        font-size: 3rem;
+    }
+
+    /* princing */
+    .princing {
+        background: var(--tertiary-color);
+        padding: 8rem 2rem;
+    }
+
+    .princing__container {
+        display: flex;
+        flex-direction: column;
+        max-width: 1200px;
+    }
+
+    .princing__title {
+        text-align: center;
+        font-size:  3rem;
+        text-transform: uppercase;
+        border-bottom: 2px solid var(--primary-color);
+        margin: 0 auto 4rem;
+    }
+
+    .princing__cards {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .princing__card-box {
+        background: #3c3a48;
+        padding: 3rem 3rem;
+        border-radius: 10px;
+    }
+
+    .princing__card-title {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .princing__card-price {
+        text-align: center;
+        color: var(--primary-color);
+        margin-bottom: 1.5rem;
+        font-weight: 700;
+        font-size: 3rem;
+    }
+
+    .princing__card-list {
+        font-size: 1rem;
+        line-height: 2.5rem;
+        font-weight: 300;
+    }
+
+    .princing__card-item i {
+        color: var(--primary-color);
+        margin-right: .5rem;
+    }
+
+    .princing__card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    /* notes */
+    .notes {
+        padding: 3rem 2rem;
+        color: #9f9caf;
+        text-align: center;   
+    }
+
+    /* details features */
+    .details-features {
+        background: var(--tertiary-color);
+        padding: 4rem 2rem;
+    }
+
+    .details-features__container {
+
+    }
+
+    .details-features__title {
+        font-size: 2.3rem;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .details-features__list {
+
+    }
+
+    .details-features__list-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        margin-bottom: 3.5rem;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 1.5rem;
+        border-radius: 20px;
+    }
+
+    .details-features__list-item i {
+        color: var(--primary-color);
+    }
+
+    .details-features__list-title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: .5rem;
+    }
+
+    .footer.footer__details {
+        background: var(--secondary-color);
+      }
+
   @media (max-width: 990px) {
 
     .swiper {
@@ -763,6 +894,8 @@ ul {
         margin: 0 auto;
     }
 
+
+ 
 }
 
 @media (max-width: 768px) {
@@ -780,6 +913,15 @@ ul {
 
     .testimonials__mobile-card-text {
         width: 300px;
+    }
+
+    .princing__title {
+        font-size: 2rem;
+    }
+
+    .details-features__list-item {
+        flex-direction: column;
+        text-align: center;
     }
 }
 
