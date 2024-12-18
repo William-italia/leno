@@ -6,7 +6,9 @@ document.addEventListener('DOMContentLoaded', function () {
   const openVideo = document.querySelector('.preview__video-button');
   const closeVideo = document.querySelector('.modal__close-button');
   const modal = document.querySelector('.modal');
-  const videoPlayer = document.getElementById('videoPlayer')
+  const videoPlayer = document.getElementById('videoPlayer');
+  const navbar = document.querySelector('.navbar');
+  const menulinks = document.querySelectorAll('.navbar__mobile-menu-list li');
 
   toggleButton.addEventListener('click', function () {
 
@@ -24,6 +26,23 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
     }, 300);
+
+    document.addEventListener('click', function (e) {
+      if (!mobileMenu.contains(e.target) && e.target !== toggleButton && !toggleButton.contains(e.target) && e.target !== navbar && !navbar.contains(e.target)) {
+        mobileMenu.classList.remove('active');
+        icon.classList.remove('fa-times');
+        icon.classList.add('fa-bars');
+      }
+    });
+
+    
+    menulinks.forEach(link => {
+      link.addEventListener('click', function () {
+        mobileMenu.classList.remove('active');
+        icon.classList.remove('fa-times');
+        icon.classList.add('fa-bars');
+      });
+    })
 
   });
 
