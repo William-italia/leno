@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
   openVideo.addEventListener('click', function () {
 
     modal.classList.add('active');
-    videoPlayer.src = 'https://www.youtube.com/embed/MaNDBD2EzJo?si=WtUeAVgzjajXKq3l?enablejsapi=1';
+    videoPlayer.src = 'https://www.youtube.com/embed/yKCAna4SrOA?si=hSvl7YR7DgcphW8h';
 
 
     closeVideo.addEventListener('click', function () {
