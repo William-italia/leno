@@ -46,8 +46,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
   });
 
-
-
   openVideo.addEventListener('click', function () {
 
     modal.classList.add('active');
