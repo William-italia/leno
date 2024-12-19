@@ -919,5 +919,9 @@ ul {
         flex-direction: column;
         text-align: center;
     }
+
+    .princing__card-list {
+        line-height: 1;
+    }
 }
 
