@@ -921,7 +921,12 @@ ul {
     }
 
     .princing__card-list {
-        line-height: 1;
+        line-height: 1.4;
+        font-size: 1.1rem;
+    }
+
+    .princing__card-item {
+        margin-bottom: 1rem;
     }
 }
 
