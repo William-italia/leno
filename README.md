@@ -1,63 +1,61 @@
 # **Leno - Landing Page**
 
-Bem-vindo ao repositório do **Leno**, um site responsivo desenvolvido como parte do meu curso de programação. Este projeto é uma pagina de apresentação de um aplicativo para celular fictício, destacando suas funcionalidades e oferecendo uma experiência visual profissional e elegante.
+Welcome to the **Leno** repository, a responsive website developed as part of my programming course. This project is a landing page for a fictitious mobile app, showcasing its features and offering a professional and elegant visual experience.
 
-### 🌐 **Link para acessar o site**  
+### 🌐 **Link to access the website**  
 [**Leno**](https://lenoitalia.netlify.app/)
 
 ---
 
-## 📋 **Sobre o Projeto**
-O **Leno** é um projeto voltado para a prática de habilidades em desenvolvimento web. Ele utiliza **HTML**, **CSS** e **JavaScript** para criar uma landing page responsiva e atraente, com o objetivo de apresentar um aplicativo fictício de forma profissional.
+## 📋 **About the Project**
+**Leno** is a project aimed at practicing web development skills. It uses **HTML**, **CSS**, and **JavaScript** to create a responsive and attractive landing page, designed to present a fictitious mobile app in a professional way.
 
-### 🎯 **Funcionalidades**
-- Layout **responsivo**, compatível com dispositivos móveis, tablets e desktops.
-- Design moderno e focado em **UX/UI**, inspirado em landing pages de aplicativos populares.
-- Animações e interações dinâmicas utilizando **JavaScript**.
-- Simulação de botões de chamada para ação (call-to-action) para engajar usuários.
-
----
-
-## 🚀 **Tecnologias Utilizadas**
-- **HTML5**: Estrutura semântica e acessível.
-- **CSS3**: Estilização moderna com design responsivo.
-- **JavaScript**: Funcionalidades dinâmicas e interativas.
-- **Swiper.js**: Biblioteca para criação de sliders personalizáveis e responsivos.
+### 🎯 **Features**
+- **Responsive layout**, compatible with mobile devices, tablets, and desktops.
+- Modern **UX/UI** design, inspired by landing pages of popular apps.
+- Animations and dynamic interactions using **JavaScript**.
+- Call-to-action buttons to engage users.
 
 ---
 
-## 🎨 **Preview do Projeto**
-Aqui estão algumas capturas de tela do projeto para dar uma ideia do design e funcionalidade:
+## 🚀 **Technologies Used**
+- **HTML5**: Semantic and accessible structure.
+- **CSS3**: Modern styling with responsive design.
+- **JavaScript**: Dynamic and interactive features.
+- **Swiper.js**: Library for creating customizable and responsive sliders.
+
+---
+
+## 🎨 **Project Preview**
+Here are some screenshots of the project to give you an idea of its design and functionality:
 
 ### Desktop  
-![Texto alternativo](img/telaHome.png)
-
+![Alternative text](img/telaHome.png)
 
 ### Mobile  
-![Texto alternativo](img/telaHomeCel.png)
-
-
----
-
-## 📱 **Experimente você mesmo!**
-Explore o site em [**Leno**](https://lenoitalia.netlify.app/) e veja como ele se adapta ao seu dispositivo.
+![Alternative text](img/telaHomeCel.png)
 
 ---
 
-## 🛠️ **Como rodar o projeto localmente**
-1. Clone este repositório:  
+## 📱 **Try it yourself!**
+Explore the website at [**Leno**](https://lenoitalia.netlify.app/) and see how it adapts to your device.
+
+---
+
+## 🛠️ **How to run the project locally**
+1. Clone this repository:  
    ```bash
-   git clone https://github.com/seu-usuario/leno-italia.git
-   ```
-2. entre na pasta do projeto que foi clonada:
+   git clone https://github.com/your-username/leno-italia.git
+
+2. Navigate to the cloned project folder:
      ```bash
    cd leno-italia
    ```
-3. Abra o arquivo index.html
-Utilize um navegador de sua preferência para abrir o arquivo index.html e visualizar o projeto. 
+3. Open the index.html file
+Use a browser of your choice to open the index.html file and view the project.
 
-Você pode:
+You can:
 
- - Arrastar o arquivo index.html diretamente para o navegador.
+ - Drag the index.html file directly into the browser.
 
- - Utilizar uma extensão como Live Server no VS Code para rodar o projeto em um servidor local.
+ - Use an extension like Live Server in VS Code to run the project on a local server.
